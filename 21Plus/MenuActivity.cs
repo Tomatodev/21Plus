@@ -1,11 +1,10 @@
 ﻿using Android.App;
-using Android.Widget;
 using Android.OS;
 
 namespace _21Plus
 {
     [Activity(Label = "_21Plus", MainLauncher = true)]
-    public class MainActivity : Activity
+    public class MenuActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
