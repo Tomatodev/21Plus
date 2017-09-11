@@ -41,11 +41,42 @@ namespace _21Plus
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f040003
+			public const int btnAbout = 2130968579;
+			
+			// aapt resource value: 0x7f040002
+			public const int btnInventory = 2130968578;
+			
+			// aapt resource value: 0x7f040004
+			public const int btnLeaderBoard = 2130968580;
+			
+			// aapt resource value: 0x7f040000
+			public const int btnPlay = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int btnTutorial = 2130968577;
+			
+			// aapt resource value: 0x7f040005
+			public const int button6 = 2130968581;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int MainMenu = 2130837504;
 			
 			static Layout()
 			{
